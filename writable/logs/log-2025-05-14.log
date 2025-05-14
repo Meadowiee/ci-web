@@ -1,0 +1,118 @@
+CRITICAL - 2025-05-14 01:15:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_template.php"
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_template', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('v_template', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 01:20:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Mahasiswa.php"
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Mahasiswa', [], true)
+ 3 APPPATH\Views\v_templates.php(662): view('Mahasiswa')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 7 APPPATH\Controllers\Mahasiswa.php(10): view('v_templates', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 01:34:19 --> ErrorException: Undefined variable $title
+[Method: GET, Route: dashboard]
+in APPPATH\Views\v_templates.php on line 262.
+ 1 APPPATH\Views\v_templates.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php', 262)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 5 APPPATH\Controllers\Template.php(6): view('v_templates')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Template->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 01:36:17 --> ErrorException: Undefined variable $title
+[Method: GET, Route: dashboard]
+in APPPATH\Views\v_templates.php on line 269.
+ 1 APPPATH\Views\v_templates.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php', 269)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 5 APPPATH\Controllers\Template.php(6): view('v_templates')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Template->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 01:36:30 --> ErrorException: Undefined variable $content
+[Method: GET, Route: dashboard]
+in APPPATH\Views\v_templates.php on line 284.
+ 1 APPPATH\Views\v_templates.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php', 284)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 5 APPPATH\Controllers\Template.php(6): view('v_templates')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Template->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 01:36:49 --> ErrorException: Undefined variable $content
+[Method: GET, Route: dashboard]
+in APPPATH\Views\v_templates.php on line 284.
+ 1 APPPATH\Views\v_templates.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $content', 'C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php', 284)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 5 APPPATH\Controllers\Template.php(6): view('v_templates')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Template->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 02:19:43 --> Error: Call to undefined function form_open()
+[Method: GET, Route: mahasiswa/add]
+in APPPATH\Views\v_mahasiswa_add.php on line 2.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_mahasiswa_add', [], true)
+ 4 APPPATH\Views\v_templates.php(273): view('v_mahasiswa_add')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 8 APPPATH\Controllers\Mahasiswa.php(18): view('v_templates', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->add()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 02:20:49 --> Error: Call to undefined function form_open()
+[Method: GET, Route: mahasiswa/add]
+in APPPATH\Views\v_mahasiswa_add.php on line 2.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_mahasiswa_add', [], true)
+ 4 APPPATH\Views\v_templates.php(273): view('v_mahasiswa_add')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\ci-web\\app\\Views\\v_templates.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('v_templates', [], true)
+ 8 APPPATH\Controllers\Mahasiswa.php(18): view('v_templates', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->add()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
