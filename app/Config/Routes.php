@@ -46,6 +46,7 @@ $routes->group('mahasiswa', static function($routes) {
     $routes->get('/', 'Mahasiswa::index');
     $routes->get('(:any)', 'Mahasiswa::$1');
     $routes->post('submit', 'Mahasiswa::submit');
+    $routes->post('update/(:segment)', 'Mahasiswa::update/$1');
 });
 
 /**

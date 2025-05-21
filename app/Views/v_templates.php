@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CI-WEB</title>
 
   <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css') ?>">
@@ -220,10 +220,27 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?php echo site_url('mahasiswa') ?>" class="nav-link">
-                <i class="nav-icon bi bi-buildings"></i>
+              <div class="nav-link text-white">
+                <i class="nav-icon bi bi-mortarboard"></i>
                 <p>Mahasiswa</p>
-              </a>
+              </div>
+              <ul class="nav-item">
+                <li>
+                  <a href="<?php echo site_url('mahasiswa') ?>" class="nav-link">
+                    <p>View Mahasiswa</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo site_url('mahasiswa/show') ?>" class="nav-link">
+                    <p>Show Mahasiswa</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo site_url('mahasiswa/add') ?>" class="nav-link">
+                    <p>Add Mahasiswa</p>
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
           <!--end::Sidebar Menu-->
