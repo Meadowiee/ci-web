@@ -222,6 +222,24 @@
             <li class="nav-item">
               <div class="nav-link text-white">
                 <i class="nav-icon bi bi-mortarboard"></i>
+                <p>Dosen</p>
+              </div>
+              <ul class="nav-item">
+                <li>
+                  <a href="<?php echo site_url('dosen') ?>" class="nav-link">
+                    <p>Dosen</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="<?php echo site_url('dosen/add') ?>" class="nav-link">
+                    <p>Add Dosen</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <div class="nav-link text-white">
+                <i class="nav-icon bi bi-mortarboard"></i>
                 <p>Mahasiswa</p>
               </div>
               <ul class="nav-item">

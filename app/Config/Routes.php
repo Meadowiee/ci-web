@@ -49,6 +49,13 @@ $routes->group('mahasiswa', static function($routes) {
     $routes->post('update/(:segment)', 'Mahasiswa::update/$1');
 });
 
+$routes->group('dosen', static function($routes) {
+    $routes->get('/', '\App\Modules\Dosen\Controllers\Dosen::index');
+    $routes->get('(:any)', '\App\Modules\Dosen\Controllers\Dosen::$1');
+    $routes->post('submit', '\App\Modules\Dosen\Controllers\Dosen::submit');
+    $routes->post('update/(:segment)', '\App\Modules\Dosen\Controllers\Dosen::update/$1');
+});
+
 /**
  * How to create a new routes and things
  * 
