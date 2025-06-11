@@ -56,6 +56,18 @@ $routes->group('dosen', static function($routes) {
     $routes->post('update/(:segment)', '\App\Modules\Dosen\Controllers\Dosen::update/$1');
 });
 
+// $routes->group('api', ['namespace' => '\App\Modules\Produk\Controllers'],
+// function($routes) {
+//     $routes->resource('produk');
+// });
+
+$routes->group('produk', static function($routes) {
+    $routes->get('/', '\App\Modules\Produk\Controllers\Produk::index');      
+    $routes->get('(:num)', '\App\Modules\Produk\Controllers\Produk::show/$1');
+    $routes->post('/', '\App\Modules\Produk\Controllers\Produk::create');         $routes->put('(:num)', '\App\Modules\Produk\Controllers\Produk::update/$1'); // PUT update
+    $routes->delete('(:num)', '\App\Modules\Produk\Controllers\Produk::delete/$1'); // DELETE
+});
+
 /**
  * How to create a new routes and things
  * 
